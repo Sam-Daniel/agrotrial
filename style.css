@@ -1,0 +1,136 @@
+$khaki: #f9cd8f;
+$darkgray: #474652;
+$coral: #f5755b;
+$varela:'Varela Round', sans-serif;
+$mont:'Montserrat Hairline', arial;
+$fontcolor: lighten($darkgray,20%);
+
+body{
+  background: $khaki;
+  font-family: $varela;
+ -webkit-font-smoothing: antialiased;
+}
+.contentbox{
+  margin: 150px auto;
+  width: 850px;
+  height: 900px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 1px rgba($darkgray,.3%);
+}
+.block1{
+ float: left;
+ width: 50%;
+ height: inherit;
+ background-color: $darkgray;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+}
+header{
+  margin:70px 0px 0px 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: $mont;
+  font-size: 30px;
+  font-weight: 500;
+  h1{
+    font-family: $varela;
+    font-style: bold;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 40px;
+  }
+}
+hr{
+  margin-top: 20px;
+  margin-left: 0;
+  width: 60px;
+  background: $coral;
+  height: 4px;
+  border: 0;
+}
+.person{
+  position: relative;
+  top:40%;
+  left: 50px;
+  width: 80%;
+  display: flex;
+  p.name{
+    color: lighten(black, 80%);
+    position: relative ;
+    top: 30px;
+    left: 20px;
+    text-transform: capitalize;
+  }
+}
+.profile{
+  width: 80px;
+ height: 80px;
+ background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/nuraika/128.jpg);
+ background-size: cover;
+ border-radius: 50%;
+ box-shadow: 0px 0px 20px 10px darken($darkgray, 2%);
+}
+.block2{
+   float: right;
+   width: 50%;
+   background-color: white;
+   height:inherit;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+p.article::first-letter{
+  font-size: 42px;
+ color: $darkgray;
+}
+ 
+p.article{
+  width: 80%;
+  color: lighten($darkgray,20%);
+  margin: 70px auto 20px ;
+  line-height: 1.4;
+}
+.clear{
+ float: right;
+ color: $darkgray;
+ position: relative;
+ top: 21px;
+ right: 20px;
+ font-size: 35px;
+ font-style: bold;
+ cursor: pointer;
+}
+.lowericonfonts{
+ float: right;
+ margin-right: 40px;
+ position: relative;
+}
+.fav{
+ color: $coral;
+ font-size: 30px;
+  
+}
+.more{
+ font-size: 30px;
+  color: $darkgray;
+  margin-right: 20px;
+ }
+p.notes{
+  margin: 0 0 20px;
+  font-size: 12px;
+  text-align: center;
+  color: $darkgray;
+}
+p.notes a{
+  color: white;
+}
+
+
+::selection {
+    background-color: lighten($darkgray, 15%);
+    color: aliceblue;
+}
+
+::-moz-selection {
+    background-color: lighten($darkgray, 5%);
+    color: aliceblue;
+}
