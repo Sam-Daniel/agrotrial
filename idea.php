@@ -45,14 +45,14 @@ body {font-family: "Lato", sans-serif}
   </div>
  
   <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">THE BIG IDEA</h2>
+  <div style="color: #777;background-color:white;text-align:center;padding:30px 90px;text-align: justify;>
+    <h2 class="w3-wide"><h2>THE BIG IDEA</h2>
     <p class="w3-opacity"><i></i></p>
-    <p class="w3-justify">Digital agriculture functions as a network that connects every one to share and thrive in agriculture.
-We address the 3 main issues that are keeping us away from agriculture.
-The lack of investment which inturn brings leads to the less turn over.
-The location or the habitat. People living in metro cities and towns are deprived of the opportunity to take part in agriculture.
-The physical dependency needed to undertake agriculture - Buying land, learning the art of cultivation, investing, labouring and selling.
+    <p class="w3-justify" text-align:center;padding:30px 90px;text-align: justify;> <h4>Digital agriculture functions as a network that connects every one to share and thrive in agriculture. </h3>
+We address the 3 main issues that are keeping us away from agriculture.<br>
+The lack of investment which inturn brings leads to the less turn over.<br>
+The location or the habitat. People living in metro cities and towns are deprived of the opportunity to take part in agriculture.<br>
+The physical dependency needed to undertake agriculture - Buying land, learning the art of cultivation, investing, labouring and selling.<br>
 The fear of loss due to natural disasters that could destruct the livelihood of the family.
 </p>
     
@@ -84,41 +84,6 @@ The fear of loss due to natural disasters that could destruct the livelihood of 
   </div>
   
 <!-- End Page Content -->
-</div>
-<!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
-<script>
-function myMap() {
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
 
 <script>
 // Automatic Slideshow - change image every 4 seconds
