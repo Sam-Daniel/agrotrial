@@ -111,7 +111,7 @@ h3 {
 
 <div class="bgimg-1">
   <div class="caption">
-    <span class="border" style="color:blue" <a href="/idea.php"> <a href=""> CLICK TO KNOW </a></span>
+    <span class="border" style="color:blue" <a href="/idea.php"> CLICK TO KNOW </a></span>
   </div>
 </div>
 
